@@ -1,0 +1,74 @@
+body {
+background-image: url("../images/WidgetCoLogo.gif");
+background-position: center;
+background-repeat: no-repeat;
+position: relative;
+}
+
+article{
+text-align: justify;
+border: 15px;
+padding: 75px;
+margin: 20px;
+line-height: 1.5;
+}
+
+section {
+text-align: justify;
+padding: 1%;
+border-width: 2px 2px 2px 50px;
+border-style: solid;
+border-color: rgb(6, 132, 141);
+background-color: rgb(220, 245, 226);
+}
+section a {
+    font-weight: bolder;
+}
+
+header {
+text-align: center;
+font-variant: small-caps;
+border-width: 2px 20px 1px 0px;
+border-style: solid;
+padding: 5px;
+}
+
+aside{
+text-align: right;
+position: relative;
+border-width: 0px 20px 0px 0px;
+border-style: solid;
+border-color: rgb(92, 28, 241);
+padding: 10px;
+}
+
+aside::first-line{
+font-weight: bold;
+
+}
+
+footer{
+padding: 5;
+color: grey;
+text-align: right;
+border-width: 1px 0px 0px 0px;
+border-style: solid;
+}
+
+footer a{
+    color: grey;
+}
+
+h1{
+font-size: 50px;
+text-align: left;
+position: absolute;
+top: 5%;
+width: 75%;
+}
+
+h2{
+text-align: center;
+font-style: italic;
+font-size: 2em;
+}
