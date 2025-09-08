@@ -49,15 +49,16 @@ font-weight: bold;
 
 footer{
 padding: 5;
+font-style: italic;
 color: grey;
 text-align: right;
 border-width: 1px 0px 0px 0px;
 border-style: solid;
+
 }
 
 footer a{
     color: grey;
-    font-style: italic;
 }
 
 h1{
